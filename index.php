@@ -1,5 +1,6 @@
 <?php ?>
 <!DOCTYPE html>
+<html>
 <head>
 <title>Market Trade Processor</title>
 <!-- Latest compiled and minified CSS -->
@@ -11,12 +12,14 @@
 <input type="text" name="userID" id="userID" value="134256" readonly="readonly" class="form-control" style="width:25%;"/><br/>
 <label>Currency From</label>
 <select name="currencyFrom" id="currencyFrom">
+<option value=""></option>
 <option value="EUR">Euro</option>
 <option value="USD">US Dollar</option>
 <option value="GBP">UK Pound</option>
 </select><br/>
 <label>Currency To</label>
-<select name="currencyFrom" id="currencyFrom">
+<select name="currencyTo" id="currencyTow">
+<option value=""></option>
 <option value="EUR">Euro</option>
 <option value="USD">US Dollar</option>
 <option value="GBP">UK Pound</option>

@@ -19,7 +19,7 @@ $num1 = mysql_numrows($result1);
 <script type="text/javascript">
 
 $(function () {
-    $('#amountSell').highcharts({
+    $('#buysell').highcharts({
         title: {
             text: 'Buy & Sell',
             x: -20 //center
@@ -73,6 +73,9 @@ $(function () {
 </script>
 
 </head>
+<body>
 
+<div id="buysell"></div>
 
+</body>
 </html>

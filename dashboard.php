@@ -56,6 +56,7 @@ $(function () {
             name: 'Amount to Buy',
             data: [
             
+            <?php
                 $j=0;
                 while ($j < $num1) {
                         $amountBuy=mysql_result($result1,$j,"amountBuy");
@@ -64,6 +65,8 @@ $(function () {
                         echo $amountBuy.',';
                         $j++;
                     }            
+                    
+            ?>
             
             ]
         }, ]

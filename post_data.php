@@ -3,12 +3,12 @@ include("config.php");
 
 // get POST data 
 $userID=$_POST['userID']; 
-$currencyFrom=$_POST[''];
-currencyTo=$_POST[''];
-amountSell=$_POST[''];
-amountBuy=$_POST[''];
-rate=$_POST[''];
-origCountry=$_POST[''];
+$currencyFrom=$_POST['currencyFrom'];
+currencyTo=$_POST['currencyTo'];
+amountSell=$_POST['amountSell'];
+amountBuy=$_POST['amountBuy'];
+rate=$_POST['rate'];
+origCountry=$_POST['origCountry'];
 
 // connect to database
 mysql_connect($host,$user,$pass);

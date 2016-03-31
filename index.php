@@ -7,23 +7,23 @@
 </head>
 
 <form name="postMsg" method="post" action="post_data.php" class="form-control">
-<input type="text" name="userID" id="userID" value="134256" readonly="readonly"/>
+<input type="text" name="userID" id="userID" value="134256" readonly="readonly" class="form-control"/><br/>
 <label>Currency From</label>
 <select name="currencyFrom" id="currencyFrom">
 <option value="EUR">Euro</option>
 <option value="USD">US Dollar</option>
 <option value="GBP">UK Pound</option>
-</select>
+</select><br/>
 <label>Currency To</label>
 <select name="currencyFrom" id="currencyFrom">
 <option value="EUR">Euro</option>
 <option value="USD">US Dollar</option>
 <option value="GBP">UK Pound</option>
-</select>
-<label>Amount to Sell</label><input type="text" name="amountSell" id="amountSell"/>
-<label>Amount to Buy</label><input type="text" name="amountBuy" id="amountBuy"/>
-<label>Rate</label><input type="text" name="rate" id="rate" value="0.7471"/>
-<input type="text" name="origCountry" id="origCountry" value="IE" readonly="readonly"/>
+</select><br/>
+<label>Amount to Sell</label><input type="text" name="amountSell" id="amountSell" class="form-control"/><br/>
+<label>Amount to Buy</label><input type="text" name="amountBuy" id="amountBuy" class="form-control"/><br/>
+<label>Rate</label><input type="text" name="rate" id="rate" value="0.7471"/><br/>
+<input type="text" name="origCountry" id="origCountry" value="IE" readonly="readonly"/><br/>
 
 </form>
 

@@ -3,19 +3,19 @@ include("config.php");
 
 // get POST data 
 $userID=$_POST['userID']; 
-$currencyFrom=$_POST[''];
-currencyTo=$_POST[''];
-amountSell=$_POST[''];
-amountBuy=$_POST[''];
-rate=$_POST[''];
-origCountry=$_POST[''];
+//currencyFrom
+//currencyTo
+//amountSell
+//amountBuy
+//rate
+//origCountry
 
 // connect to database
 mysql_connect($host,$user,$pass);
 @mysql_select_db($db) or die( "Unable to select database");
 
 // insert POST data in table
-$query = "INSERT INTO messages (userID,currencyFrom,currencyTo,amountSell,amountBuy,rate,originatingCountry) VALUES ('$userID','$currencyFrom','$currencyTo','$amountSell','$amountBuy','$rate','$origCountry')";
+$query = "INSERT INTO company VALUES ('','$res_company','$res_add1','$res_add2','$res_add3','$county','$tel','$fax','$email','$web','$indsec','$status','$source')";
 mysql_query($query);
 
 

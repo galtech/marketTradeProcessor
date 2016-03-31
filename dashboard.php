@@ -80,5 +80,29 @@ $(function () {
 
 <div id="buysell"></div>
 
+            <?php
+            
+                $i=0;
+                while ($i < $num1) {
+                        $amountSell=mysql_result($result1,$i,"amountSell");
+                        $timePlaced=mysql_result($result1,$i,"timePlaced");
+                        
+                        echo $amountSell.',';
+                        $i++;
+                    }
+            ?>
+
+
+            <?php
+                $j=0;
+                while ($j < $num1) {
+                        $amountBuy=mysql_result($result1,$j,"amountBuy");
+                        $timePlaced=mysql_result($result1,$j,"timePlaced");
+                        
+                        echo $amountBuy.',';
+                        $j++;
+                    }            
+                    
+            ?>
 </body>
 </html>
